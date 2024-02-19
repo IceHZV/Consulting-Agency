@@ -1,0 +1,10 @@
+.news__header {
+  background-image: url(../../../img/newspage/bacground.png);
+}
+.news__body_background {
+  background-color: $secondary-col2;
+  height: 2500px;
+  @media (max-width: 600px) {
+    height: 4400px;
+  }
+}

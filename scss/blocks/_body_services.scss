@@ -1,0 +1,76 @@
+.body__services {
+  width: 100%;
+  height: 1182px;
+  background-color: $secondary-col1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  @media (max-width: 600px) {
+    height: 2282px;
+  }
+}
+.body__services > p {
+  width: 120px;
+  background-color: $primari-col2;
+  color: $secondary-col2;
+  text-transform: uppercase;
+  border-radius: 20px;
+  margin-top: 170px;
+  margin-bottom: 8px;
+  letter-spacing: 3px;
+  @media (max-width: 600px) {
+    margin-top: 50px;
+  }
+}
+.body__services > h2 {
+  max-width: 782px;
+  margin-bottom: 38px;
+}
+.body__services_cards {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  gap: 20px;
+  color: $primari-col3;
+  @media (max-width: 400px) {
+    grid-template-columns: 1fr;
+  }
+}
+.card {
+  max-width: 387px;
+  height: 324px;
+  padding: 49px 47px 49px 25px;
+  border-radius: 20px;
+  gap: 10px;
+  background-color: #ebebeb;
+
+  text-align: left;
+}
+
+.card img {
+  height: 85px;
+}
+.card p,
+.card h6 {
+  padding-left: 22px;
+}
+.card h6 {
+  padding-top: 25px;
+  padding-right: 10px;
+  font-weight: 600;
+  line-height: 29px;
+  color: $primari-col3;
+}
+.card p {
+  color: $secondary-col3;
+}
+.card:hover {
+  background-color: $primari-col3;
+  color: $secondary-col2;
+}
+.card:hover p {
+  color: $secondary-col2;
+}
+.card:hover h6 {
+  color: $secondary-col2;
+}

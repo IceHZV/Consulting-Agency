@@ -1,0 +1,33 @@
+.aboutus__header {
+  width: 100%;
+  height: 620px;
+  background-image: url(../../../img/aboutuspage/bac1.png);
+  padding-top: 178px;
+}
+.abouyus__header_content {
+  max-width: 788px;
+  height: 267px;
+  border-radius: 29px;
+  padding: 48px 60px 58px 60px;
+  margin: 0px 0px 0px 361px;
+  background-color: #ffffffd9;
+  @media (max-width: 600px) {
+    padding: 20px 30px 10px 30px;
+    margin: 0px;
+  }
+}
+.abouyus__header_content p {
+  padding: 0px 12px 0px 12px;
+  background-color: $primari-col1;
+  border-radius: 20px;
+  width: 130px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  color: $primari-col3;
+}
+.abouyus__header_content h1 {
+  line-height: 58px;
+  color: $primari-col3;
+  padding-top: 21px;
+}

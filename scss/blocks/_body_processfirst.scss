@@ -1,0 +1,100 @@
+.body__processfirst {
+  max-width: 1200px;
+  height: 723px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+    height: 1523px;
+    padding: 10px 0px 0px 10px;
+    max-width: 375px;
+    margin-top: 50px;
+  }
+  margin-top: 150px;
+  margin-bottom: 152px;
+}
+.body__processfirst_left {
+  max-width: 508px;
+  @media (max-width: 600px) {
+    max-width: 360px;
+  }
+}
+.body__processfirst_left_process {
+  width: 100px;
+  background-color: $primari-col2;
+  text-transform: uppercase;
+  border-radius: 20px;
+  letter-spacing: 3px;
+}
+.body__processfirst_left h2 {
+  padding: 16px 0px;
+}
+.body__processfirst_left_process > p {
+  padding-left: 8px;
+  color: $secondary-col2;
+}
+.body__processfirst_left_step {
+  max-width: 460px;
+  height: 113px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 28px;
+  margin-top: 40px;
+  border-top: 1px solid #c1c1c1;
+  @media (max-width: 600px) {
+    max-width: 370px;
+  }
+}
+.body__processfirst_left_step img {
+  width: 52.33px;
+  height: 52.3px;
+  margin-right: 16px;
+}
+.step_content p {
+  padding-top: 10px;
+}
+.body__processfirst_right {
+  max-width: 574px;
+}
+.body__processfirst_right p {
+  @media (max-width: 600px) {
+    max-width: 360px;
+  }
+}
+.body__processfirst_right h2 {
+  padding-top: 8px;
+  padding-bottom: 7px;
+}
+.body__processfirst_right_groving {
+  width: 320px;
+  background-color: $primari-col1;
+  text-transform: uppercase;
+  border-radius: 20px;
+  letter-spacing: 3px;
+  @media (max-width: 600px) {
+    margin-top: 30px;
+  }
+}
+.body__processfirst_right_groving p {
+  padding-left: 8px;
+  color: $primari-col3;
+}
+.body__processfirst_right_cards {
+  margin-top: 17px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.processfirst_card {
+  max-width: 280px;
+  height: 222px;
+  background-color: #eaeaea;
+  border-radius: 20px;
+  padding: 33px 23px 33px 23px;
+  @media (max-width: 600px) {
+    height: 322px;
+  }
+}
+.processfirst_card h6 {
+  padding: 22px 0px 10px 0px;
+}

@@ -1,0 +1,70 @@
+.body__book {
+  width: 1200px;
+  height: 525px;
+  border-radius: 30px;
+  background: url(../../img/bodybooknow/fot1.png) left 630px top 143px no-repeat,
+    url(../../img/bodybooknow/Photo.png) right 90px top no-repeat,
+    url(../../img/bodybooknow/Background.png) left 617px top 117px no-repeat,
+    $primari-col3 url(../../img/bodybooknow/Pattern.png) left 590px top 76px
+      no-repeat;
+  padding-top: 115px;
+  padding-left: 90px;
+  margin-bottom: 170px;
+  @media (max-width: 600px) {
+    width: 370px;
+    padding-left: 20px;
+  }
+}
+.body__book_book {
+  width: 140px;
+  background-color: $primari-col2;
+  text-transform: uppercase;
+  border-radius: 20px;
+  letter-spacing: 3px;
+}
+.body__book_book p {
+  padding-left: 12px;
+  color: $secondary-col2;
+}
+.body__book h2 {
+  max-width: 430px;
+  padding: 8px 0px;
+  color: $secondary-col2;
+}
+.body__book > p {
+  max-width: 430px;
+  padding-bottom: 21px;
+  color: $secondary-col2;
+}
+.body__book_phone {
+  width: 194px;
+  height: 61px;
+  background-color: $primari-col1;
+  border-radius: 42px;
+  padding: 16px 21px 16px 21px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.body__book_phone:hover {
+  background-color: $primari-col3;
+  border: 1px solid $secondary-col1;
+}
+.body__book_phone:active {
+  position: relative;
+  top: 3px;
+}
+.body__book_phone:hover p {
+  color: $secondary-col2;
+}
+.body__book_phone img {
+  width: 21.6px;
+  height: 21.6px;
+  padding-right: 4px;
+}
+.body__book_phone > p {
+  color: $primari-col3;
+  font-size: 600;
+  font-size: 18px;
+  line-height: 28.8px;
+}

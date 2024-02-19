@@ -1,0 +1,53 @@
+.body__vision {
+  width: 1200px;
+  height: 531px;
+  background-image: url(../../../img/aboutuspage/bodyvision/fot1.png),
+    url(../../../img/bodybooknow/Background.png),
+    url(../../../img/bodyboutus/bac1.png);
+  background-size: 488px 346px, 113px 126px, 226px 226px;
+  background-position: top 44.2px right 72px, top 28.3px right 40.7px, top right;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  margin-bottom: 150px;
+  margin-top: 95px;
+  @media (max-width: 600px) {
+    max-width: 370px;
+  }
+}
+.body__vision_vision {
+  width: 135px;
+  background-color: $primari-col2;
+  text-transform: uppercase;
+  border-radius: 20px;
+  letter-spacing: 3px;
+}
+.body__vision_vision p {
+  padding-left: 10px;
+  color: $secondary-col2;
+}
+.body__vision h2 {
+  margin: 19px 0px 14px 0px;
+}
+.body__vision > p {
+  max-width: 590px;
+  @media (max-width: 600px) {
+    color: $primari-col3;
+  }
+}
+.body__vision_text {
+  display: flex;
+  margin-top: 19px;
+  max-width: 519px;
+}
+.body__vision_text p {
+  @media (max-width: 600px) {
+    color: $primari-col3;
+  }
+}
+.text2 {
+  margin-bottom: 169.2px;
+}
+.body__vision_text img {
+  margin-right: 18px;
+  width: 20px;
+  height: 20px;
+}

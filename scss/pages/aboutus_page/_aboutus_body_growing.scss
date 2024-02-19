@@ -1,0 +1,99 @@
+.body__growing {
+  width: 100%;
+  height: 704px;
+  background-color: $secondary-col1;
+  display: flex;
+  justify-content: center;
+  @media (max-width: 600px) {
+    height: 1800px;
+  }
+}
+.body__growing_conteiner {
+  max-width: 1200px;
+  height: 504px;
+  margin-top: 100px;
+}
+.body__growing_growing {
+  width: 320px;
+  background-color: $primari-col1;
+  text-transform: uppercase;
+  border-radius: 20px;
+  letter-spacing: 3px;
+}
+.body__growing_growing p {
+  padding-left: 10px;
+  color: $primari-col3;
+}
+.body__growing_conteiner h2 {
+  margin: 8px 0px 11px 0px;
+}
+.body__growing_but {
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+.body__growing_but > p {
+  max-width: 588px;
+}
+.body__growing_but a {
+  @extend %buttom;
+  width: 167px;
+  height: 59px;
+  border-radius: 42px;
+  padding: 15px 23px 15px 23px;
+  background-color: $primari-col3;
+  color: $secondary-col1;
+  @media (max-width: 600px) {
+    margin-top: 15px;
+  }
+}
+.body__growing_but a:hover {
+  background-color: $secondary-col1;
+  color: $primari-col3;
+  border: 1px solid $primari-col3;
+}
+.body__growing_but a:active {
+  position: relative;
+  top: 3px;
+}
+.body__growing_cards {
+  margin-top: 34px;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+  gap: 35px;
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+.growing_card {
+  width: 272px;
+  border-radius: 20px;
+  padding: 36px 23px 36px 23px;
+  background-color: $secondary-col2;
+}
+.growing_card h6 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  color: $primari-col3;
+  margin: 22px 0px 10px 0px;
+}
+.growing_card p {
+  margin-bottom: 22px;
+}
+.growing_card a {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 29px;
+  color: $primari-col3;
+}
+.growing_card a:hover {
+  color: $primari-col2;
+}
+.growing_card img {
+  padding-top: 5px;
+  margin-left: 9px;
+}

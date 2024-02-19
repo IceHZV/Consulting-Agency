@@ -1,0 +1,62 @@
+.body__history {
+  width: 1062px;
+  height: 651px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 250px;
+  background-image: url(../../../img/bodybooknow/Background.png),
+    url(../../../img/bodyboutus/bac1.png);
+  background-size: 164px 183px, 287px 287px;
+  background-position: top 470px left, top 215px right;
+  background-repeat: no-repeat, no-repeat;
+  @media (max-width: 600px) {
+    width: 370px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+.body__history-history {
+  width: 151px;
+  background-color: $primari-col2;
+  text-transform: uppercase;
+  border-radius: 20px;
+  letter-spacing: 3px;
+}
+.body__history-history p {
+  padding-left: 10px;
+  color: $secondary-col2;
+}
+.body__history h2 {
+  max-width: 500px;
+  margin: 22px 0px 11px 0px;
+}
+.body__history > p {
+  max-width: 732px;
+}
+.history_video_conteiner {
+  position: relative;
+  width: 962px;
+  height: 369px;
+  border-radius: 28px;
+  margin-top: 44px;
+  @media (max-width: 600px) {
+    width: 370px;
+  }
+}
+.history_video {
+  -o-object-fit: cover;
+  object-fit: cover;
+
+  width: 100%;
+  height: 100%;
+  border-radius: 28px;
+}
+
+.history_video_but {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  z-index: 5;
+}

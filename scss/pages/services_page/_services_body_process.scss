@@ -1,0 +1,58 @@
+.body__process {
+  width: 1200px;
+  height: 590px;
+  margin: 151px auto 144px auto;
+  display: flex;
+  background-image: url(../../../img/servicespage/servicesprocess/foto1.png),
+    url(../../../img/bodybooknow/Background.png),
+    url(../../../img/bodyboutus/bac1.png);
+  background-size: 634px 396px, 164px 183px, 327px 327px;
+  background-position: top 94px left 40px, top 55px left 536px, top 207px left;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  @media (max-width: 600px) {
+    width: 370px;
+    margin-bottom: 50px;
+  }
+}
+.body__process_conteiner {
+  max-width: 457px;
+  margin-left: auto;
+  margin-right: 0px;
+}
+.body__process_process {
+  width: 165px;
+  background-color: $primari-col1;
+  text-transform: uppercase;
+  border-radius: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 21px;
+}
+.body__process_process p {
+  padding-left: 10px;
+  color: $primari-col3;
+}
+.body__process_titles {
+  max-width: 457px;
+}
+.titles_title {
+  display: flex;
+  flex-direction: row;
+  margin-top: 41px;
+}
+.titles_title img {
+  width: 31px;
+  height: 30px;
+  margin-right: 9.6px;
+}
+.body__process_title_text h6 {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+.body__process_title_text p {
+  @media (max-width: 600px) {
+    color: $primari-col3;
+  }
+}

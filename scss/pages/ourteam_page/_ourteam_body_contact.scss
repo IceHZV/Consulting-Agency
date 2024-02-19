@@ -1,0 +1,60 @@
+.body__ourteam_contact {
+  width: 1200px;
+  height: 412px;
+  border-radius: 30px;
+  background: $primari-col3
+    url(../../../img/ourteampage/ourteam_contact/hands.png) top right -50px no-repeat;
+  padding: 82px 0px 0px 102px;
+  margin-bottom: 150px;
+  @media (max-width: 600px) {
+    width: 370px;
+    padding: 20px 0px 0px 20px;
+  }
+}
+.body__ourteam_contact_contact {
+  width: 119px;
+  background-color: $primari-col2;
+  text-transform: uppercase;
+  border-radius: 20px;
+  letter-spacing: 3px;
+}
+.body__ourteam_contact_contact p {
+  padding-left: 10px;
+  color: $secondary-col2;
+}
+.body__ourteam_contact h2 {
+  margin: 12px 0px 5px 0px;
+  color: $secondary-col2;
+}
+.body__ourteam_contact p {
+  color: $secondary-col2;
+  max-width: 488px;
+  margin-bottom: 12px;
+}
+.body__ourteam_contact input[type="email"] {
+  width: 304px;
+  height: 68px;
+  border-radius: 54px;
+  border: 1px solid #c1c1c1;
+  background-color: $secondary-col2;
+  padding: 22px 20px 22px 20px;
+  margin-right: 28px;
+  @media (max-width: 600px) {
+    margin-bottom: 20px;
+  }
+}
+.body__ourteam_contact input[type="submit"] {
+  width: 168px;
+  height: 61px;
+  border-radius: 42px;
+  background-color: $primari-col2;
+  padding: 16px 27px 16px 27px;
+  color: $secondary-col2;
+}
+.body__ourteam_contact input[type="submit"]:hover {
+  background-color: $primari-col1;
+}
+.body__ourteam_contact input[type="submit"]:active {
+  position: relative;
+  top: 3px;
+}

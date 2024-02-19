@@ -1,0 +1,54 @@
+// Base
+@import "base/reset";
+@import "base/base";
+@import "base/vars";
+// Blocks main
+@import "blocks/navigation";
+@import "blocks/header";
+@import "blocks/body_about_us";
+@import "blocks/body_services";
+@import "blocks/body_processfirst";
+@import "blocks/body_processsecond";
+@import "blocks/body_feedback";
+@import "blocks/body_book";
+@import "blocks/body_blog";
+@import "blocks/body_contact";
+@import "blocks/footer";
+// Pages
+// About us
+@import "pages/aboutus_page/aboutus_header";
+@import "pages/aboutus_page/aboutus_body_vision";
+@import "pages/aboutus_page/aboutus_body_growing";
+@import "pages/aboutus_page/aboutus_body_history";
+@import "pages/aboutus_page/aboutus_body_ourteam";
+// Services
+@import "pages/services_page/services_header";
+@import "pages/services_page/services_body_process";
+@import "pages/services_page/services_body_pricing";
+// Services Single
+@import "pages/services_single_page/services_single_header";
+@import "pages/services_single_page/services_single_body_slider";
+@import "pages/services_single_page/services_single_body_expect";
+@import "pages/services_single_page/services_single_body_history";
+@import "pages/services_single_page/services_single_body_contact";
+@import "pages/services_single_page/services_single_body_faq";
+// Our Team
+@import "pages/ourteam_page/ourteam_header";
+@import "pages/ourteam_page/ourteam_body_ourteam";
+@import "pages/ourteam_page/ourteam_body_contact";
+// Our Team Person
+@import "pages/ourteam_person_page/ourteam_person_body";
+@import "pages/ourteam_person_page/ourteam_person_subscribe";
+// News
+@import "pages/news_page/news_header";
+// News Author
+@import "pages/news_author_page/news_author_header";
+@import "pages/news_author_page/news_author_body_authorpage";
+// Our Approach
+@import "pages/ourapproach_page/ourapproach_header";
+// Our Approach single
+@import "pages/ourapproach_single/ourapproach_single_header";
+@import "pages/ourapproach_single/ourapproach_single_body";
+// Contacts
+@import "pages/contacts_page/contacts_header";
+@import "pages/contacts_page/contacts_body";

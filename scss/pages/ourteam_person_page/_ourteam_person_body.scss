@@ -1,0 +1,72 @@
+.body__person {
+  max-width: 1324px;
+  height: 581px;
+  padding: 77px 0px 0px 124px;
+  display: flex;
+  margin-top: 82.5px;
+  background-image: url(../../../img/bodybooknow/Background.png),
+    url(../../../img/bodyboutus/bac1.png);
+  background-size: 233px 164px, 388px 388px;
+  background-position: top 52px left 87px, top left;
+  background-repeat: no-repeat, no-repeat;
+  margin-bottom: 150px;
+  @media (max-width: 600px) {
+    flex-direction: column;
+    padding: 50px 0px 0px 5px;
+    height: 1100px;
+  }
+}
+.body__person_foto img {
+  width: 478px;
+  height: 504px;
+  border-radius: 20px;
+  margin-right: 89px;
+  @media (max-width: 600px) {
+    width: 370px;
+    height: 370px;
+  }
+}
+.body__person_text {
+  max-width: 633px;
+}
+.body__person_text_title {
+  display: flex;
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+.body__person_text_title h2 {
+  width: 280px;
+  padding-right: 60px;
+  border-right: 1px solid #c1c1c1;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 41px;
+}
+.body__person_text_title_soc {
+  width: 192px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+  @media (max-width: 600px) {
+    margin-left: 5px;
+  }
+}
+.body__person_text h6 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  color: $secondary-col3;
+  margin: 4px 0px 35px 0px;
+}
+.body__person_text_past {
+  margin-top: 40px;
+  padding-top: 40px;
+  border-top: 1px solid #c1c1c1;
+}
+.body__person_text_past h2 {
+  margin-bottom: 13px;
+}
+.body__person_text_past p {
+  margin-bottom: 30px;
+}

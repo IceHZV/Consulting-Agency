@@ -1,0 +1,52 @@
+* {
+  font-family: "Cabin", sans-serif;
+}
+h1 {
+  font-weight: 700;
+  font-size: clamp(25px, 8vw, 50px);
+  line-height: clamp(30px, 8vw, 58px);
+}
+h2 {
+  font-weight: 700;
+  font-size: clamp(22.5px, 8vw, 45px);
+  line-height: clamp(26px, 8vw, 52.2px);
+}
+h3 {
+  font-weight: 700;
+  font-size: clamp(20px, 8vw, 40px);
+  line-height: clamp(26px, 8vw, 52px);
+}
+h4 {
+  font-weight: 700;
+  font-size: clamp(17.5px, 8vw, 35px);
+  line-height: clamp(22.5px, 8vw, 45px);
+}
+h5 {
+  font-weight: 700;
+  font-size: clamp(15px, 8vw, 30px);
+  line-height: clamp(19.5px, 8vw, 39px);
+}
+h6 {
+  font-weight: 700;
+  font-size: clamp(14px, 8vw, 25px);
+  line-height: clamp(16.5px, 8vw, 32.5px);
+}
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: clamp(12px, 8vw, 16px);
+  line-height: clamp(18px, 8vw, 23.6px);
+  color: #595566;
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  @media (max-width: 1400px) {
+    max-width: 1366px;
+  }
+  @media (max-width: 400px) {
+    max-width: 375px;
+  }
+}

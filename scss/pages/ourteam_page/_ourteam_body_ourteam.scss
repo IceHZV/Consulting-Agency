@@ -1,0 +1,41 @@
+.body__ourteampage {
+  max-width: 1200px;
+  margin-top: 140px;
+  margin-bottom: 150px;
+}
+.body__ourteam_bac {
+  background-color: $secondary-col2;
+}
+.body__ourteampage_title {
+  display: flex;
+  justify-content: space-between;
+  margin: 13px 0px 43px 0px;
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+.body__ourteampage_title p {
+  width: 630px;
+  @media (max-width: 600px) {
+    width: 370px;
+    margin-bottom: 20px;
+  }
+}
+.body__ourteampage_title a {
+  @extend %buttom;
+  width: 168px;
+  height: 59px;
+  border-radius: 42px;
+  padding: 15px 23px 15px 23px;
+  background-color: $primari-col3;
+  color: $secondary-col1;
+}
+.body__ourteampage_title a:hover {
+  background-color: $secondary-col1;
+  color: $primari-col3;
+  border: 1px solid $primari-col3;
+}
+.body__ourteampage_title a:active {
+  position: relative;
+  top: 3px;
+}

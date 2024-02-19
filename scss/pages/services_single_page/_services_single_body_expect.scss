@@ -1,0 +1,55 @@
+.body__expect {
+  width: 100%;
+  height: 818px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 150px;
+}
+.body__expect_conteiner {
+  width: 1292px;
+  height: 463px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 84px;
+  background-image: url(../../../img/servicessingl/services_singleexpect/foto1.png),
+    url(../../../img/bodybooknow/Background.png),
+    url(../../../img/bodyboutus/bac1.png);
+  background-size: 634px 396px, 164px 183px, 327px 327px;
+  background-position: top 60px left 95px, top 41px left 59px, top left;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  @media (max-width: 600px) {
+    width: 370px;
+  }
+}
+.body__expect_content {
+  max-width: 481px;
+  margin-left: auto;
+  margin-right: 0px;
+}
+.body__expect_content_title {
+  width: 255px;
+  background-color: $primari-col1;
+  text-transform: uppercase;
+  border-radius: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 21px;
+}
+.body__expect_content_title p {
+  padding-left: 10px;
+  color: $primari-col3;
+}
+.body__expect_content h2 {
+  margin: 14px 0px 13px 0px;
+}
+.body__expect_content > p {
+  margin-bottom: 24px;
+}
+.body__expect_content_minitext {
+  display: flex;
+  margin-bottom: 18px;
+}
+.body__expect_content_minitext img {
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+}

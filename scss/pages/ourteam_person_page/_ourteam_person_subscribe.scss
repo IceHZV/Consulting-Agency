@@ -1,0 +1,58 @@
+.body__person_subscribe {
+  width: 1200px;
+  height: 252px;
+  border-radius: 20px;
+  background-color: $primari-col3;
+  background-image: url(../../../img/bodybooknow/Background.png),
+    url(../../../img/bodyboutus/bac1.png);
+  background-size: 233px 164px, 388px 388px;
+  background-position: bottom -10px left, top right;
+  background-repeat: no-repeat, no-repeat;
+  padding: 87px 0px 0px 87px;
+  display: flex;
+  margin-bottom: 150px;
+  @media (max-width: 600px) {
+    width: 370px;
+    flex-direction: column;
+    padding: 30px 0px 0px 15px;
+    height: 350px;
+  }
+}
+.body__person_subscribe_text {
+  color: $secondary-col2;
+  margin-right: 143px;
+}
+.body__person_subscribe_text p {
+  color: $secondary-col2;
+  margin-top: 12px;
+}
+.body__person_subscribe input[type="email"] {
+  width: 304px;
+  height: 68px;
+  border-radius: 54px;
+  border: 1px solid #c1c1c1;
+  background-color: $secondary-col2;
+  padding: 22px 20px 22px 20px;
+  margin-right: 28px;
+  @media (max-width: 600px) {
+    margin-bottom: 20px;
+  }
+}
+.body__person_subscribe input[type="submit"] {
+  width: 168px;
+  height: 61px;
+  border-radius: 42px;
+  background-color: $primari-col2;
+  padding: 16px 27px 16px 27px;
+  color: $secondary-col2;
+  @media (max-width: 600px) {
+    background-color: $primari-col1;
+  }
+}
+.body__person_subscribe input[type="submit"]:hover {
+  background-color: $primari-col1;
+}
+.body__person_subscribe input[type="submit"]:active {
+  position: relative;
+  top: 3px;
+}

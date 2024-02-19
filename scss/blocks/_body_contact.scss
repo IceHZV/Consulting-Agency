@@ -1,0 +1,121 @@
+.body__contact {
+  max-width: 1200px;
+  height: 534px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 91px;
+  margin-top: 151px;
+  margin-bottom: 178px;
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+    margin-left: 5px;
+    height: 1300px;
+  }
+}
+.body__contact_content {
+  max-width: 420px;
+  height: 504px;
+}
+.body__contact_content_content {
+  width: 127px;
+  background-color: $primari-col1;
+  text-transform: uppercase;
+  border-radius: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 6px;
+}
+.body__contact_content_content p {
+  padding-left: 10px;
+  color: $primari-col3;
+}
+.body__contact_content > p {
+  margin-top: 13px;
+  margin-bottom: 38px;
+  width: 400px;
+  @media (max-width: 600px) {
+    max-width: 370px;
+  }
+}
+.content_card {
+  margin-bottom: 57px;
+  display: flex;
+  align-items: center;
+}
+.content_card img {
+  margin-right: 16px;
+}
+.content_card_text h6 {
+  margin-top: 3.21px;
+
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  width: 265px;
+}
+
+.body__contact_form {
+  max-width: 688px;
+  height: 534px;
+  display: flex;
+  flex-direction: column;
+}
+.contact_form_up {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+.contact_form_up input {
+  width: 318px;
+  height: 68px;
+  border-radius: 54px;
+  border: 1px solid #c1c1c1;
+  padding: 22px 33px 22px 33px;
+}
+.body__contact_form label {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: $primari-col3;
+}
+.body__contact_form > label {
+  margin-top: 28px;
+  margin-bottom: 8px;
+}
+.body__contact_form textarea {
+  width: 666px;
+  height: 157px;
+  border: 1px solid #c1c1c1;
+  border-radius: 22px;
+  margin-bottom: 28px;
+  resize: none;
+  padding: 22px 33px 111px 33px;
+  @media (max-width: 600px) {
+    max-width: 370px;
+  }
+}
+.body__contact_form > input {
+  color: $secondary-col2;
+  background-color: $primari-col3;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: left;
+  width: 170px;
+  height: 61px;
+  border-radius: 42px;
+  padding: 16px 27px 16px 27px;
+}
+.body__contact_form > input:hover {
+  background-color: $secondary-col1;
+  color: $primari-col3;
+  border: 1px solid $primari-col3;
+}
+.body__contact_form > input:active {
+  position: relative;
+  top: 3px;
+}

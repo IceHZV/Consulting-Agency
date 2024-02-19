@@ -1,0 +1,20 @@
+.body__single_contact {
+  width: 788px;
+  height: 574px;
+  background-image: url(../../../img/servicessingl/services_single_contact/bigfot1-round-corners.png),
+    url(../../../img/servicessingl/services_single_contact/smallfot1-round-corners.png),
+    url(../../../img/servicessingl/services_single_contact/smallfot2-round-corners.png),
+    url(../../../img/bodybooknow/Background.png),
+    url(../../../img/bodyboutus/bac1.png);
+  background-size: 316px 508px, 316px 243px, 316px 243px, 307px 164px,
+    309px 309px;
+  background-position: top 38px left 54px, top 38px right 69px,
+    top 301px right 69px, bottom left, top right;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  @media (max-width: 1400px) {
+    width: 780px;
+  }
+  @media (max-width: 600px) {
+    width: 370px;
+  }
+}
