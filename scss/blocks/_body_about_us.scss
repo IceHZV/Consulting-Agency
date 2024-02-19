@@ -101,8 +101,8 @@
 .body__aboutus_image {
   width: 715px;
   height: 465px;
-  background: url(../../img/bodyboutus/bac2.png) right top no-repeat,
-    url(../../img/bodyboutus/bac1.png) left bottom no-repeat;
+  background: url(../img/bodyboutus/bac2.png) right top no-repeat,
+    url(../img/bodyboutus/bac1.png) left bottom no-repeat;
   @media (max-width: 800px) {
     display: none;
   }
@@ -149,9 +149,9 @@
   width: 95px;
   height: 95px;
   position: absolute;
-  //   width: 50px;
+
   content: "50+";
-  background-image: url(../../img/bodyboutus/Ellipse.png);
+  background-image: url(../img/bodyboutus/Ellipse.png);
 }
 .body__aboutus_image_content p {
   @extend %pbig;

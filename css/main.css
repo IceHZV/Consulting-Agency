@@ -624,7 +624,7 @@ p {
 .body__aboutus_image {
   width: 715px;
   height: 465px;
-  background: url(../../img/bodyboutus/bac2.png) right top no-repeat, url(../../img/bodyboutus/bac1.png) left bottom no-repeat;
+  background: url(../img/bodyboutus/bac2.png) right top no-repeat, url(../img/bodyboutus/bac1.png) left bottom no-repeat;
 }
 @media (max-width: 800px) {
   .body__aboutus_image {
@@ -678,7 +678,7 @@ p {
   height: 95px;
   position: absolute;
   content: "50+";
-  background-image: url(../../img/bodyboutus/Ellipse.png);
+  background-image: url(../img/bodyboutus/Ellipse.png);
 }
 
 .body__aboutus_image_content p {
@@ -907,7 +907,7 @@ p {
   width: 100%;
   height: 646px;
   background-color: #181818;
-  background-image: url(../../img/bodybackground/Backgroundprocesssecond.png);
+  background-image: url(../img/bodybackground/Backgroundprocesssecond.png);
   display: flex;
   align-items: center;
 }
@@ -1187,11 +1187,11 @@ p {
 }
 
 .body__feedback_prev img {
-  background-image: url(../../img/bodyfeedback/prev2.png);
+  background-image: url(../img/bodyfeedback/prev2.png);
 }
 
 .body__feedback_prev:hover img {
-  background-image: url(../../img/bodyfeedback/prev.png);
+  background-image: url(../img/bodyfeedback/prev.png);
 }
 
 .body__feedback_prev p {
@@ -1212,11 +1212,11 @@ p {
 }
 
 .body__feedback_next img {
-  background-image: url(../../img/bodyfeedback/next.png);
+  background-image: url(../img/bodyfeedback/next.png);
 }
 
 .body__feedback_next:hover img {
-  background-image: url(../../img/bodyfeedback/next2.png);
+  background-image: url(../img/bodyfeedback/next2.png);
 }
 
 .body__feedback_next p {
@@ -1227,7 +1227,7 @@ p {
   width: 1200px;
   height: 525px;
   border-radius: 30px;
-  background: url(../../img/bodybooknow/fot1.png) left 630px top 143px no-repeat, url(../../img/bodybooknow/Photo.png) right 90px top no-repeat, url(../../img/bodybooknow/Background.png) left 617px top 117px no-repeat, #181818 url(../../img/bodybooknow/Pattern.png) left 590px top 76px no-repeat;
+  background: url(../img/bodybooknow/fot1.png) left 630px top 143px no-repeat, url(../img/bodybooknow/Photo.png) right 90px top no-repeat, url(../img/bodybooknow/Background.png) left 617px top 117px no-repeat, #181818 url(../img/bodybooknow/Pattern.png) left 590px top 76px no-repeat;
   padding-top: 115px;
   padding-left: 90px;
   margin-bottom: 170px;
@@ -1796,7 +1796,7 @@ p {
 .aboutus__header {
   width: 100%;
   height: 620px;
-  background-image: url(../../../img/aboutuspage/bac1.png);
+  background-image: url(../img/aboutuspage/bac1.png);
   padding-top: 178px;
 }
 
@@ -1835,7 +1835,7 @@ p {
 .body__vision {
   width: 1200px;
   height: 531px;
-  background-image: url(../../../img/aboutuspage/bodyvision/fot1.png), url(../../../img/bodybooknow/Background.png), url(../../../img/bodyboutus/bac1.png);
+  background-image: url(../img/aboutuspage/bodyvision/fot1.png), url(../img/bodybooknow/Background.png), url(../img/bodyboutus/bac1.png);
   background-size: 488px 346px, 113px 126px, 226px 226px;
   background-position: top 44.2px right 72px, top 28.3px right 40.7px, top right;
   background-repeat: no-repeat, no-repeat, no-repeat;
@@ -2027,7 +2027,7 @@ p {
   align-items: center;
   margin-top: 150px;
   margin-bottom: 250px;
-  background-image: url(../../../img/bodybooknow/Background.png), url(../../../img/bodyboutus/bac1.png);
+  background-image: url(../img/bodybooknow/Background.png), url(../img/bodyboutus/bac1.png);
   background-size: 164px 183px, 287px 287px;
   background-position: top 470px left, top 215px right;
   background-repeat: no-repeat, no-repeat;
@@ -2219,7 +2219,7 @@ p {
 }
 
 .services__header {
-  background-image: url(../../../img/servicespage/bac1.png);
+  background-image: url(../img/servicespage/bac1.png);
 }
 
 .body__process {
@@ -2227,7 +2227,7 @@ p {
   height: 590px;
   margin: 151px auto 144px auto;
   display: flex;
-  background-image: url(../../../img/servicespage/servicesprocess/foto1.png), url(../../../img/bodybooknow/Background.png), url(../../../img/bodyboutus/bac1.png);
+  background-image: url(../img/servicespage/servicesprocess/foto1.png), url(../img/bodybooknow/Background.png), url(../img/bodyboutus/bac1.png);
   background-size: 634px 396px, 164px 183px, 327px 327px;
   background-position: top 94px left 40px, top 55px left 536px, top 207px left;
   background-repeat: no-repeat, no-repeat, no-repeat;
@@ -2351,7 +2351,7 @@ p {
   width: 323px;
   height: 234px;
   border-radius: 20px;
-  background: #303030 url(../../../img/servicespage/servicespricing/Pattern.png);
+  background: #303030 url(../img/servicespage/servicespricing/Pattern.png);
   background-position: top right 21px;
   background-repeat: no-repeat;
   color: #ffffff;
@@ -2415,7 +2415,7 @@ p {
 }
 
 .services__single_header {
-  background-image: url(../../../img/servicessingl/bac2.png);
+  background-image: url(../img/servicessingl/bac2.png);
 }
 
 .service__single > p {
@@ -2466,19 +2466,19 @@ p {
 }
 
 .slider_conteiner_prev img {
-  background-image: url(../../../img/bodyfeedback/prev2.png);
+  background-image: url(../img/bodyfeedback/prev2.png);
 }
 
 .slider_conteiner_prev:hover img {
-  background-image: url(../../../img/bodyfeedback/prev.png);
+  background-image: url(../img/bodyfeedback/prev.png);
 }
 
 .slider_conteiner_next img {
-  background-image: url(../../../img/bodyfeedback/next.png);
+  background-image: url(../img/bodyfeedback/next.png);
 }
 
 .slider_conteiner_next:hover img {
-  background-image: url(../../../img/bodyfeedback/next2.png);
+  background-image: url(../img/bodyfeedback/next2.png);
 }
 
 .slider_conteiner_content > h2 {
@@ -2547,7 +2547,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 84px;
-  background-image: url(../../../img/servicessingl/services_singleexpect/foto1.png), url(../../../img/bodybooknow/Background.png), url(../../../img/bodyboutus/bac1.png);
+  background-image: url(../img/servicessingl/services_singleexpect/foto1.png), url(../img/bodybooknow/Background.png), url(../img/bodyboutus/bac1.png);
   background-size: 634px 396px, 164px 183px, 327px 327px;
   background-position: top 60px left 95px, top 41px left 59px, top left;
   background-repeat: no-repeat, no-repeat, no-repeat;
@@ -2612,7 +2612,7 @@ p {
   margin-top: 152px;
   width: 944px;
   height: 537px;
-  background-image: url(../../../img/servicessingl/services_single_history/Backgroundyellow.png), url(../../../img/bodybooknow/Background.png), url(../../../img/bodyboutus/bac1.png);
+  background-image: url(../img/servicessingl/services_single_history/Backgroundyellow.png), url(../img/bodybooknow/Background.png), url(../img/bodyboutus/bac1.png);
   background-size: 164px 183px, 108px 121px, 286px 286px;
   background-position: bottom right, top 180px left 35px, top 155px left;
   background-repeat: no-repeat, no-repeat, no-repeat;
@@ -2650,7 +2650,7 @@ p {
 .body__single_contact {
   width: 788px;
   height: 574px;
-  background-image: url(../../../img/servicessingl/services_single_contact/bigfot1-round-corners.png), url(../../../img/servicessingl/services_single_contact/smallfot1-round-corners.png), url(../../../img/servicessingl/services_single_contact/smallfot2-round-corners.png), url(../../../img/bodybooknow/Background.png), url(../../../img/bodyboutus/bac1.png);
+  background-image: url(../img/servicessingl/services_single_contact/bigfot1-round-corners.png), url(../img/servicessingl/services_single_contact/smallfot1-round-corners.png), url(../img/servicessingl/services_single_contact/smallfot2-round-corners.png), url(../img/bodybooknow/Background.png), url(../img/bodyboutus/bac1.png);
   background-size: 316px 508px, 316px 243px, 316px 243px, 307px 164px, 309px 309px;
   background-position: top 38px left 54px, top 38px right 69px, top 301px right 69px, bottom left, top right;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
@@ -2725,7 +2725,7 @@ p {
 }
 
 .outeam_header {
-  background-image: url(../../../img/ourteampage/bacgr1.png);
+  background-image: url(../img/ourteampage/bacgr1.png);
 }
 
 .body__ourteampage {
@@ -2783,7 +2783,7 @@ p {
   width: 1200px;
   height: 412px;
   border-radius: 30px;
-  background: #181818 url(../../../img/ourteampage/ourteam_contact/hands.png) top right -50px no-repeat;
+  background: #181818 url(../img/ourteampage/ourteam_contact/hands.png) top right -50px no-repeat;
   padding: 82px 0px 0px 102px;
   margin-bottom: 150px;
 }
@@ -2857,7 +2857,7 @@ p {
   padding: 77px 0px 0px 124px;
   display: flex;
   margin-top: 82.5px;
-  background-image: url(../../../img/bodybooknow/Background.png), url(../../../img/bodyboutus/bac1.png);
+  background-image: url(../img/bodybooknow/Background.png), url(../img/bodyboutus/bac1.png);
   background-size: 233px 164px, 388px 388px;
   background-position: top 52px left 87px, top left;
   background-repeat: no-repeat, no-repeat;
@@ -2945,7 +2945,7 @@ p {
   height: 252px;
   border-radius: 20px;
   background-color: #181818;
-  background-image: url(../../../img/bodybooknow/Background.png), url(../../../img/bodyboutus/bac1.png);
+  background-image: url(../img/bodybooknow/Background.png), url(../img/bodyboutus/bac1.png);
   background-size: 233px 164px, 388px 388px;
   background-position: bottom -10px left, top right;
   background-repeat: no-repeat, no-repeat;
@@ -3011,7 +3011,7 @@ p {
 }
 
 .news__header {
-  background-image: url(../../../img/newspage/bacground.png);
+  background-image: url(../img/newspage/bacground.png);
 }
 
 .news__body_background {
@@ -3025,7 +3025,7 @@ p {
 }
 
 .news__author_header {
-  background-image: url(../../../img/newsauthorpage/bac5.png);
+  background-image: url(../img/newsauthorpage/bac5.png);
 }
 
 .news__author_header p {
@@ -3074,7 +3074,7 @@ p {
   max-width: 794px;
   height: 325px;
   border-radius: 30px;
-  background: url(../../../img/bodybooknow/Background.png), #181818 url(../../../img/bodyboutus/bac1.png);
+  background: url(../img/bodybooknow/Background.png), #181818 url(../img/bodyboutus/bac1.png);
   background-size: 103px 103px, 326px 326px;
   background-position: top right, top right;
   background-repeat: no-repeat, no-repeat;
@@ -3138,7 +3138,7 @@ p {
 }
 
 .ourapproach_header {
-  background-image: url(../../../img/ourapproachpage/bacourapproach.png);
+  background-image: url(../img/ourapproachpage/bacourapproach.png);
   margin-bottom: 200px;
 }
 
@@ -3147,7 +3147,7 @@ p {
 }
 
 .ourapproach__single_header {
-  background-image: url(../../../img/ourapproachsinglepage/bac10.png);
+  background-image: url(../img/ourapproachsinglepage/bac10.png);
 }
 
 .ourapproach__single_header p {
@@ -3265,7 +3265,7 @@ p {
 }
 
 .contacts_header {
-  background-image: url(../../../img/contacts/baccont.png);
+  background-image: url(../img/contacts/baccont.png);
 }
 
 .body__letstalk {
@@ -3274,7 +3274,7 @@ p {
   padding: 67px 95px 0px 95px;
   margin-top: 84px;
   margin-bottom: 150px;
-  background-image: url(../../../img/bodybooknow/Background.png), url(../../../img/bodyboutus/bac1.png);
+  background-image: url(../img/bodybooknow/Background.png), url(../img/bodyboutus/bac1.png);
   background-size: 164px 183px, 328px 328px;
   background-position: top 41px left 59px, top left;
   background-repeat: no-repeat, no-repeat;
